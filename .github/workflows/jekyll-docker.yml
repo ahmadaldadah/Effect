@@ -24,12 +24,12 @@ jobs:
     - name: Deploy to GitHub Pages
       if: ${{ github.event_name == 'push' }}
       run: |
-        git config user.name "${{ github.actor }}"
-        git config user.email "${{ github.actor }}@users.noreply.github.com"
+        git config user.name ahmadaldadah
+        git config user.email "ahmadaldadah@users.noreply.github.com"
         mv _site ../_site
         cd ../_site
         git init
-        git remote add origin https://github.com/${{ github.repository }}.git
+        git remote add origin https://github.com/ahmadaldadah/Effect.git
         git checkout -b gh-pages
         git add .
         git commit -m "Deploy Jekyll site to GitHub Pages"
