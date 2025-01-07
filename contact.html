@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effect</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link id="Landing" href="css/Landing.css" rel="stylesheet">
+    <link id="LandingRtl" href="css/LandingRtl.css" rel="stylesheet" disabled>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="heading-container">
+    <a class="navbar-brand" href="index.html"><img src="img/Logo.svg"/></a>
+    <div class="navbar-right">
+        <button class="heading-button">
+            Connect with us
+        </button>
+        <div class="switch">
+            <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" onchange="toggleLanguage()">
+            <label for="language-toggle"></label>
+            <span class="on">EN</span>
+            <span class="off">AR</span>
+        </div>
+        <div class="dropup">
+            <img src="img/MenuIcon.svg" alt="icon" class="dropbtn"/>
+            <div class="dropup-content">
+                <div class="menu-head">
+                    <div class="switch-menu">
+                        <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" onchange="toggleLanguage()">
+                        <label for="language-toggle"></label>
+                        <span class="on">EN</span>
+                        <span class="off">AR</span>
+                    </div>
+                    <button class="heading-button"><img src="img/ArrowRight.svg" class="menu-button" alt="icon"/>Start A New Project</button>
+                    <div class="close-icon">X</div>
+                </div>
+                <a href="index.html">Home</a>
+                <a href="services.html">Works</a>
+                <a href="About.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="services.html">Services</a>
+                <a href="blogs.html">Blogs</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <p class="menu-follow">Follow us on</p>
+                <div class="social-icons-menu">
+                    <a href="#"><img src="img/InstagramIcon1.svg" alt="Instagram"></a>
+                    <a href="#"><img src="img/FacebookIcon1.svg" alt="Facebook"></a>
+                    <a href="#"><img src="img/LinkedinIcon1.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="img/X1.svg" alt="Twitter"></a>
+                    <a href="#"><img src="img/YoutubeIcon1.svg" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Content Section -->
+<div class="body-container">
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2 class="section-title">Contact us</h2>
+            <p class="section-subtitle">We’d love to hear from you! Whether you have questions, need support, or want to discuss a potential project, feel free to reach out to us through any of the following methods:</p>
+            <div class="contact-item">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="circle-design"></div>
+                    <h2>Contact Information</h2>
+                    <p>Fill up the form and our team will get back to you within 24 hours.</p>
+                    <ul class="contact-info-list">
+                        <li>
+                            <div class="icon-circle">
+                                <img src="img/PhoneIcon.svg" alt="Phone Icon" class="icon">
+                            </div>
+                            <span class="contact-text">+91 98765 43210</span>
+                        </li>
+                        <li>
+                            <div class="icon-circle">
+                                <img src="img/EmailIcon.svg" alt="Email Icon" class="icon">
+                            </div>
+                            <a href="mailto:ezaden.herzallah@gmail.com" class="contact-text">ezaden.herzallah@gmail.com</a>
+                        </li>
+                        <li>
+                            <div class="icon-circle">
+                                <img src="img/WebsiteIcon.svg" alt="Website Icon" class="icon">
+                            </div>
+                            <a href="https://Effect.io" class="contact-text">https://Effect.io</a>
+                        </li>
+                        <li>
+                            <div class="icon-circle">
+                                <img src="img/LocationIcon.svg" alt="Location Icon" class="icon">
+                            </div>
+                            <span class="contact-text">20 Al Khail Road,<br> Business Bay Tower,<br> Dubai, United Arab Emirates</span>
+                        </li>
+                    </ul>
+                    <h3>Follow us</h3>
+                    <div class="social-contact-icons">
+                        <a href="#"><img src="img/LinkedinIcon.svg" alt="LinkedIn"></a>
+                        <a href="#"><img src="img/InstagramIcon.svg" alt="Instagram"></a>
+                        <a href="#"><img src="img/FacebookIcon.svg" alt="Facebook"></a>
+                        <a href="#"><img src="img/X.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <div class="input-box">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first-name" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-box">
+                                <label for="email">Mail</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group-column">
+                            <label for="service">What service do you need?</label>
+                            <div class="radio-group">
+                                <label class="custom-radio">
+                                    <input type="radio" name="service" value="web-design">
+                                    <span class="radio-text">Web Design</span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="service" value="app-design" checked>
+                                    <span class="radio-text">App Design</span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="service" value="graphic-design">
+                                    <span class="radio-text">Graphic Design</span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="service" value="digital-marketing">
+                                    <span class="radio-text">Digital Marketing</span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="service" value="other">
+                                    <span class="radio-text">Other</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group-column">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="1" placeholder="Write your message..." required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn-submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio-section">
+        <div class="portfolio-container">
+            <h2 class="section-title">See Our Work</h2>
+
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item">
+                    <h3>Z - Aura Perfume Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/Image1.svg" alt="Project Image 1">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/Image1.svg" alt="Thumb 1">
+                        <img src="img/Image1.svg" alt="Thumb 2">
+                        <img src="img/Image1.svg" alt="Thumb 3">
+                        <img src="img/Image1.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item">
+                    <h3>Forhelp Charity Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/image2.svg" alt="Project Image 2">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/image2.svg" alt="Thumb 1">
+                        <img src="img/image2.svg" alt="Thumb 2">
+                        <img src="img/image2.svg" alt="Thumb 3">
+                        <img src="img/image2.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item">
+                    <h3>Skill Bridge Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/Image3.svg" alt="Project Image 3">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/Image3.svg" alt="Thumb 1">
+                        <img src="img/Image3.svg" alt="Thumb 2">
+                        <img src="img/Image3.svg" alt="Thumb 3">
+                        <img src="img/Image3.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+    <!-- Portfolio Item 1 -->
+                <div class="portfolio-item">
+                    <h3>Z - Aura Perfume Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/Image1.svg" alt="Project Image 1">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/Image1.svg" alt="Thumb 1">
+                        <img src="img/Image1.svg" alt="Thumb 2">
+                        <img src="img/Image1.svg" alt="Thumb 3">
+                        <img src="img/Image1.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item">
+                    <h3>Forhelp Charity Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/image2.svg" alt="Project Image 2">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/image2.svg" alt="Thumb 1">
+                        <img src="img/image2.svg" alt="Thumb 2">
+                        <img src="img/image2.svg" alt="Thumb 3">
+                        <img src="img/image2.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item">
+                    <h3>Skill Bridge Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/Image3.svg" alt="Project Image 3">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/Image3.svg" alt="Thumb 1">
+                        <img src="img/Image3.svg" alt="Thumb 2">
+                        <img src="img/Image3.svg" alt="Thumb 3">
+                        <img src="img/Image3.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+                <!-- Add more portfolio items as needed -->
+
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <!-- Footer Navigation Links -->
+        <div class="footer-links">
+            <a href="#">Works</a>
+            <a href="#">Services</a>
+            <a href="#">Contact us</a>
+            <a href="#">Careers</a>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="#" class="icon">
+                <img src="img/InstagramIcon.svg" alt="Instagram Icon">
+            </a>
+            <a href="#" class="icon">
+                <img src="img/FacebookIcon.svg" alt="Facebook Icon">
+            </a>
+            <a href="#" class="icon">
+                <img src="img/LinkedinIcon.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="#" class="icon">
+                <img src="img/X.svg" alt="Twitter Icon">
+            </a>
+            <a href="#" class="icon">
+                <img src="img/YoutubeIcon.svg" alt="YouTube Icon">
+            </a>
+        </div>
+
+        <!-- Copyright and Legal Links -->
+        <div class="footer-bottom">
+            <span>Copyright © 2021</span>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script>
+    function toggleLanguage() {
+        const isArabic = document.getElementById("language-toggle").checked;
+
+        if (isArabic) {
+            console.log("arabic")
+            document.documentElement.lang = "ar";
+            document.documentElement.dir = "rtl";
+            document.getElementById("Landing").disabled = true;
+            document.getElementById("LandingRtl").disabled = false;
+        } else {
+            console.log("english")
+            document.documentElement.lang = "en";
+            document.documentElement.dir = "ltr";
+            document.getElementById("Landing").disabled = false;
+            document.getElementById("LandingRtl").disabled = true;
+        }
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

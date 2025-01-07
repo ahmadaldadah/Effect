@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effect</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link id="Landing" href="css/Landing.css" rel="stylesheet">
+    <link id="LandingRtl" href="css/LandingRtl.css" rel="stylesheet" disabled>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="heading-container">
+    <a class="navbar-brand" href="index.html"><img src="img/Logo.svg"/></a>
+    <div class="navbar-right">
+        <button class="heading-button">
+            Connect with us
+        </button>
+        <div class="switch">
+            <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" onchange="toggleLanguage()">
+            <label for="language-toggle"></label>
+            <span class="on">EN</span>
+            <span class="off">AR</span>
+        </div>
+        <div class="dropup">
+            <img src="img/MenuIcon.svg" alt="icon" class="dropbtn"/>
+            <div class="dropup-content">
+                <div class="menu-head">
+                    <div class="switch-menu">
+                        <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" onchange="toggleLanguage()">
+                        <label for="language-toggle"></label>
+                        <span class="on">EN</span>
+                        <span class="off">AR</span>
+                    </div>
+                <button class="heading-button"><img src="img/ArrowRight.svg" class="menu-button" alt="icon"/>Start A New Project</button>
+                    <div class="close-icon">X</div>
+                </div>
+                <a href="index.html">Home</a>
+                <a href="services.html">Works</a>
+                <a href="About.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="services.html">Services</a>
+                <a href="blogs.html">Blogs</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <p class="menu-follow">Follow us on</p>
+                <div class="social-icons-menu">
+                    <a href="#"><img src="img/InstagramIcon1.svg" alt="Instagram"></a>
+                    <a href="#"><img src="img/FacebookIcon1.svg" alt="Facebook"></a>
+                    <a href="#"><img src="img/LinkedinIcon1.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="img/X1.svg" alt="Twitter"></a>
+                    <a href="#"><img src="img/YoutubeIcon1.svg" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Content Section -->
+<div class="body-container">
+
+    <section class="hero-section">
+        <div class="hero-container fadeInUp">
+            <div class="highlight-box fadeInUp">
+                <div class="round"></div>
+                "<span>Effect</span>: The Leading Digital Company in Innovation 🤗"
+            </div>
+            <h1 class="hero-title">
+                "<span>Effect</span>" - Elevating Your Business To New Horizons
+            </h1>
+            <p class="hero-subtitle">
+                Start Now and Achieve the Digital Success You Deserve
+            </p>
+            <div class="hero-buttons">
+                <button class="btn-primary-hero">Connect With Us</button>
+                <button  class="btn-secondary-hero">Browse Our Works</button>
+            </div>
+        </div>
+    </section>
+    <section class="services-section">
+        <div class="services-container fadeInUp">
+            <h2 class="section-title">Services That Lead The Way To Better Business</h2>
+            <p class="section-subtitle">We provide end-to-end solutions with cutting-edge website design, tailored programming services, and dynamic digital marketing strategies to elevate your online presence and drive customer engagement. Partner with us to achieve exceptional digital results.</p>
+
+            <div class="services-grid fadeInUp">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                    <img src="img/MobileIcon.svg" alt="Mobile App Design Icon">
+                    </div>
+                    <h3 class="service-title">Mobile App Design</h3>
+                    <p class="service-description">We offer innovative and effective mobile app design services, focusing on engaging user experiences and intuitive interfaces.</p>
+                    <div class="service-buttons">
+                        <a href="#" class="btn-primary-service">Connect now</a>
+                        <a href="#" class="btn-secondary-service">Our Works</a>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                    <img src="img/WorldIcon.svg" alt="Website Design Icon" >
+                    </div>
+                    <h3 class="service-title">Website Design</h3>
+                    <p class="service-description">We offer expert website design services, creating visually appealing and user-friendly websites tailored to your needs.</p>
+                    <div class="service-buttons">
+                        <a href="#" class="btn-primary-service">Connect now</a>
+                        <a href="#" class="btn-secondary-service">Our Works</a>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                    <img src="img/DesignIcon.svg" alt="Graphic Designing Icon" >
+                    </div>
+                    <h3 class="service-title">Graphic Designing</h3>
+                    <p class="service-description">We offer professional graphic design services that include creating visually striking and impactful designs tailored to your brand.</p>
+                    <div class="service-buttons">
+                        <a href="#" class="btn-primary-service">Connect now</a>
+                        <a href="#" class="btn-secondary-service">Our Works</a>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                    <img src="img/DigitalIcon.svg" alt="Digital Marketing Icon">
+                    </div>
+                    <h3 class="service-title">Digital Marketing</h3>
+                    <p class="service-description">We deliver targeted digital marketing strategies to boost your online visibility and drive growth.</p>
+                    <div class="service-buttons">
+                        <a  href="#" class="btn-primary-service">Connect now</a>
+                        <a  href="#" class="btn-secondary-service">Our Works</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="companies-section ">
+        <div class="companies-container fadeInUp">
+            <h2 class="section-title">Companies We Work With</h2>
+            <p class="section-subtitle">We proudly partner with leading companies across various industries to deliver exceptional results and drive success.</p>
+            <div class="companies-logos fadeInUp">
+                <div class="company-row">
+
+                <div class="company-logo">
+                    <img src="img/Icon1.svg" alt="Domino's">
+                </div>
+                <div class="company-logo">
+                    <img src="img/Icon2.png" alt="Company 2">
+                </div>
+                <div class="company-logo">
+                    <img src="img/Icon3.svg" alt="Company 3">
+                </div>
+                <div class="company-logo">
+                    <img src="img/Icon4.svg" alt="Company 4">
+                </div>
+                </div>
+                <div class="company-row">
+
+                <div class="company-logo">
+                    <img src="img/Icon3.svg" alt="Company 5">
+                </div>
+                <div class="company-logo">
+                    <img src="img/Icon5.svg" alt="Company 6">
+                </div>
+                <div class="company-logo">
+                    <img src="img/Icon6.svg" alt="Company 7">
+                </div>
+                <div class="company-logo">
+                    <img src="img/Icon2.png" alt="Company 8">
+                </div>
+                <div class="company-logo">
+                    <img src="img/Icon3.svg" alt="Company 8">
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="process-section">
+        <div class="process-container fadeInUp">
+            <!-- Left side: Image -->
+            <div class="process-image">
+                <img src="img/Photo1.png" alt="Workstation image">
+            </div>
+
+            <!-- Right side: Process steps -->
+            <div class="process-content">
+                <h2 class="process-section-title">Our Process</h2>
+                <p class="process-section-subtitle">
+                    We follow a streamlined approach: understanding your needs, crafting customized solutions, executing with precision, and continuously optimizing to ensure outstanding results.
+                </p>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-icon discovery">
+                            <img src="img/Discovery.svg" alt="Discovery icon">
+                        </div>
+                        <div class="step-content">
+                            <h3>Discovery</h3>
+                            <p>We thoroughly analyze your business goals, audience, and challenges to gain insights and create a tailored strategy that aligns with your vision.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon plan">
+                            <img src="img/Plan.svg" alt="Plan icon">
+                        </div>
+                        <div class="step-content">
+                            <h3>Plan</h3>
+                            <p>We develop a strategic roadmap based on our insights, outlining clear objectives, actionable steps, and timelines to achieve your goals effectively.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon execute">
+                            <img src="img/Execute.svg" alt="Execute icon">
+                        </div>
+                        <div class="step-content">
+                            <h3>Execute</h3>
+                            <p>We implement the strategy with precision, managing each detail to ensure smooth execution and achieve the desired results.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-icon deliver">
+                            <img src="img/Deliver.svg" alt="Deliver icon">
+                        </div>
+                        <div class="step-content">
+                            <h3>Deliver</h3>
+                            <p>We deliver the final product or service with a focus on quality and precision, ensuring it meets all specified requirements and exceeds your expectations. Our goal is to provide exceptional value and achieve the desired outcomes, followed by thorough post-delivery support to address any needs or improvements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio-section">
+        <div class="portfolio-container fadeInUp">
+            <h2 class="section-title">See Our Work</h2>
+            <p class="section-subtitle">Explore our portfolio to view a selection of our successful projects and see how we've transformed ideas into impactful results.</p>
+
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item">
+                    <h3>Z - Aura Perfume Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/Image1.svg" alt="Project Image 1">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/Image1.svg" alt="Thumb 1">
+                        <img src="img/Image1.svg" alt="Thumb 2">
+                        <img src="img/Image1.svg" alt="Thumb 3">
+                        <img src="img/Image1.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item">
+                    <h3>Forhelp Charity Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/image2.svg" alt="Project Image 2">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/image2.svg" alt="Thumb 1">
+                        <img src="img/image2.svg" alt="Thumb 2">
+                        <img src="img/image2.svg" alt="Thumb 3">
+                        <img src="img/image2.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item">
+                    <h3>Skill Bridge Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/Image3.svg" alt="Project Image 3">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/Image3.svg" alt="Thumb 1">
+                        <img src="img/Image3.svg" alt="Thumb 2">
+                        <img src="img/Image3.svg" alt="Thumb 3">
+                        <img src="img/Image3.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+    <!-- Portfolio Item 1 -->
+                <div class="portfolio-item">
+                    <h3>Z - Aura Perfume Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/Image1.svg" alt="Project Image 1">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/Image1.svg" alt="Thumb 1">
+                        <img src="img/Image1.svg" alt="Thumb 2">
+                        <img src="img/Image1.svg" alt="Thumb 3">
+                        <img src="img/Image1.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item">
+                    <h3>Forhelp Charity Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/image2.svg" alt="Project Image 2">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/image2.svg" alt="Thumb 1">
+                        <img src="img/image2.svg" alt="Thumb 2">
+                        <img src="img/image2.svg" alt="Thumb 3">
+                        <img src="img/image2.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item">
+                    <h3>Skill Bridge Website Design</h3>
+
+                    <div class="main-image">
+                        <img src="img/Image3.svg" alt="Project Image 3">
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="thumbnail-list">
+                        <img src="img/Image3.svg" alt="Thumb 1">
+                        <img src="img/Image3.svg" alt="Thumb 2">
+                        <img src="img/Image3.svg" alt="Thumb 3">
+                        <img src="img/Image3.svg" alt="Thumb 4">
+                    </div>
+                </div>
+
+                <!-- Add more portfolio items as needed -->
+
+            </div>
+            <button class="btn-primary">See All Projects</button>
+        </div>
+    </section>
+    <section class="about-section">
+        <div class="about-container fadeInUp">
+            <div class="about-image">
+                <img src="img/AboutPhoto.svg" alt="Creative Team">
+            </div>
+            <div class="about-content">
+                <h1>Designed And Built By An Astonishing Creative Team.</h1>
+                <p>Designed and built by an astonishing creative team, our projects combine innovative design with cutting-edge technology. Each solution is crafted with meticulous attention to detail, ensuring both aesthetic excellence and functional brilliance.</p>
+                <button class="about-button">About us</button>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial-section">
+        <div class="testimonial-container fadeInUp">
+            <div class="testimonial-text">
+                <h1>Meet Client Satisfaction After Working With Us</h1>
+                <div class="testimonial-stars">
+                    <img src="img/Star.svg" alt="star">
+                    <img src="img/Star.svg" alt="star">
+                    <img src="img/Star.svg" alt="star">
+                    <img src="img/Star.svg" alt="star">
+                    <img src="img/Star.svg" alt="star">
+                </div>
+                <p>Experience the high level of satisfaction our clients enjoy after partnering with us. Our dedicated approach ensures we exceed expectations, delivering results that not only meet but often surpass your goals.</p>
+
+               <div class="testimonial-info">
+                   <div class="testimonial-user">
+                    <img src="img/person10.svg" alt="User Image" class="testimonial-user-img">
+                    <div>
+                        <h3>Iman Ahmed</h3>
+                        <p>Cloudexter</p>
+                    </div>
+                </div>
+                <div class="testimonial-arrows">
+                    <button class="arrow-left"><img src="img/ArrowLeft.svg" alt="arrow"/></button>
+                    <button class="arrow-right"><img src="img/ArrowRight.svg" alt="arrow"/></button>
+                </div>
+               </div>
+            </div>
+            <div class="testimonial-images">
+                <div class="image-group">
+                    <img src="img/person1.svg" alt="Testimonial 1" class="floating-img">
+                    <img src="img/person2.svg" alt="Testimonial 2" class="floating-img">
+                    <img src="img/person3.svg" alt="Testimonial 3" class="floating-img">
+                    <img src="img/person4.svg" alt="Testimonial 4" class="floating-img">
+                    <img src="img/person5.svg" alt="Testimonial 5" class="floating-img">
+                    <img src="img/person6.svg" alt="Testimonial 6" class="floating-img">
+                    <img src="img/person7.svg" alt="Testimonial 7" class="floating-img">
+                    <img src="img/person8.svg" alt="Testimonial 6" class="floating-img">
+                    <img src="img/person9.svg" alt="Testimonial 7" class="floating-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section">
+        <div class="contact-container fadeInUp">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Connect with our team to discuss your project, ask questions, or get more information on how we can help you achieve your goals.</p>
+            <div class="contact-item">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="circle-design"></div>
+                    <h2>Contact Information</h2>
+                    <p>Fill up the form and our team will get back to you within 24 hours.</p>
+                    <ul class="contact-info-list">
+                        <li>
+                            <div class="icon-circle">
+                                <img src="img/PhoneIcon.svg" alt="Phone Icon" class="icon">
+                            </div>
+                            <span class="contact-text">+91 98765 43210</span>
+                        </li>
+                        <li>
+                            <div class="icon-circle">
+                                <img src="img/EmailIcon.svg" alt="Email Icon" class="icon">
+                            </div>
+                            <a href="mailto:ezaden.herzallah@gmail.com" class="contact-text">ezaden.herzallah@gmail.com</a href="mailto:ezaden.herzallah@gmail.com" >
+                        </li>
+                        <li>
+                            <div class="icon-circle">
+                                <img src="img/WebsiteIcon.svg" alt="Website Icon" class="icon">
+                            </div>
+                            <a href="https://Effect.io" class="contact-text">https://Effect.io</a>
+                        </li>
+                        <li>
+                            <div class="icon-circle">
+                                <img src="img/LocationIcon.svg" alt="Location Icon" class="icon">
+                            </div>
+                            <span class="contact-text">20 Al Khail Road,<br> Business Bay Tower,<br> Dubai, United Arab Emirates</span>
+                        </li>
+                    </ul>
+                    <h3>Follow us</h3>
+                    <div class="social-contact-icons">
+                        <a href="#"><img src="img/LinkedinIcon.svg" alt="LinkedIn"></a>
+                        <a href="#"><img src="img/InstagramIcon.svg" alt="Instagram"></a>
+                        <a href="#"><img src="img/FacebookIcon.svg" alt="Facebook"></a>
+                        <a href="#"><img src="img/X.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <div class="input-box">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first-name" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-box">
+                                <label for="email">Mail</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group-column">
+                            <label for="service">What service do you need?</label>
+                            <div class="radio-group">
+                                <label class="custom-radio">
+                                    <input type="radio" name="service" value="web-design">
+                                    <span class="radio-text">Web Design</span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="service" value="app-design" checked>
+                                    <span class="radio-text">App Design</span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="service" value="graphic-design">
+                                    <span class="radio-text">Graphic Design</span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="service" value="digital-marketing">
+                                    <span class="radio-text">Digital Marketing</span>
+                                </label>
+                                <label class="custom-radio">
+                                    <input type="radio" name="service" value="other">
+                                    <span class="radio-text">Other</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group-column">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="1" placeholder="Write your message..." required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn-submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq-section">
+        <div class="faq-container fadeInUp">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">At et turpis ridiculus tristique fermentum. Morbi nunc interdum adipiscing elit, placerat enim. Odio consectetur proin eget id ut. Dolor aliquam egestas viverra aliquam. Vitae nisl, in sit scelerisque eget sed. Nibh amet rhoncus ultrices.</p>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can you work with clients remotely?
+                    <span class="faq-icon">×</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Absolutely! I have experience working with clients from all around the world. Through effective communication channels such as email, video calls, and project management tools, I ensure seamless collaboration regardless of geographical location.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How long does it typically take to complete a web design project?
+                    <span class="faq-icon">+</span>
+                </button>
+
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do you offer website maintenance services?
+                    <span class="faq-icon">+</span>
+                </button>
+
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can you optimize my website for search engines?
+                    <span class="faq-icon">+</span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <!-- Footer Navigation Links -->
+        <div class="footer-links">
+            <a href="#">Works</a>
+            <a href="#">Services</a>
+            <a href="#">Contact us</a>
+            <a href="#">Careers</a>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="#" class="icon">
+                <img src="img/InstagramIcon.svg" alt="Instagram Icon">
+            </a>
+            <a href="#" class="icon">
+                <img src="img/FacebookIcon.svg" alt="Facebook Icon">
+            </a>
+            <a href="#" class="icon">
+                <img src="img/LinkedinIcon.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="#" class="icon">
+                <img src="img/X.svg" alt="Twitter Icon">
+            </a>
+            <a href="#" class="icon">
+                <img src="img/YoutubeIcon.svg" alt="YouTube Icon">
+            </a>
+        </div>
+
+        <!-- Copyright and Legal Links -->
+        <div class="footer-bottom">
+            <span>Copyright © 2021</span>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    function toggleLanguage() {
+        const isArabic = document.getElementById("language-toggle").checked;
+
+        if (isArabic) {
+            console.log("arabic")
+            document.documentElement.lang = "ar";
+            document.documentElement.dir = "rtl";
+            document.getElementById("Landing").disabled = true;
+            document.getElementById("LandingRtl").disabled = false;
+        } else {
+            console.log("english")
+            document.documentElement.lang = "en";
+            document.documentElement.dir = "ltr";
+            document.getElementById("Landing").disabled = false;
+            document.getElementById("LandingRtl").disabled = true;
+        }
+    }
+</script>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
